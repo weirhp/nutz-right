@@ -1,0 +1,8 @@
+html,body{background-color: white;font-family: "微软雅黑","黑体","宋体";font-size: 12px;}
+html,body,form,table,td,tr{margin:0;padding:0;}
+.cf{clear: both;}
+.fl{float: left;}
+.txtl{text-align: left;}
+.txtr{text-align: right;}
+.error{color:red;}
+.msg{color:blue;}

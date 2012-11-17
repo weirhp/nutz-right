@@ -1,0 +1,24 @@
+/** 分页 **/
+.jpager {font-size: 80%; height: 28px; margin: 5px 0;}
+.jpager a {text-decoration: none;border: solid 1px #AAE;color: #15B;}
+.jpager a, .jpager span {display: block;float: left;padding: 0.3em 0.5em;margin-right: 5px;margin-bottom: 5px;}
+.jpager .current {background: #26B;color: #fff;border: solid 1px #AAE;}
+.jpager .current.prev, .jpager .current.next{color:#999;border-color:#999;background:#fff;}
+/** end 分页 **/
+
+/* 查询表格样式 */
+.datatable{ width:99%; margin:5px auto 0 5px;border:solid 1px #a7c0d6;border-collapse: collapse; background:#fff}
+.datatable thead tr td{ background:#d8e8fe; height:23px; line-height:23px; font-weight:normal; text-align:center;  color:#00299d; border-right:solid 1px #a7c0d6; border-bottom:solid 1px #a7c0d6;}
+.datatable tbody tr td{ background:#fff; height:23px; line-height:23px; padding-top:3px; padding-left:10px;border-right:solid 1px #a7c0d6; border-bottom:solid 1px #a7c0d6; color:#333333;text-align:center;}
+.datatable tr .theader{text-align: center;background-color: #69A0FF;background-image: url('../images/table_tr_bg.gif');font-weight:bold}
+.datatable tr .tbottom{background-color:#FFFFFF;text-align:center;}
+
+/**菜单树管理界面**/
+#leftTree{width: 300px;}
+#rightCtrl{width: 300px;}
+
+
+
+
+
+

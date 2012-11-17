@@ -1,0 +1,5 @@
+(function xx($) {
+    $(function(){
+    	
+    });
+})(jQuery)
