@@ -17,6 +17,11 @@ import com.weirhp.domain.common.User;
 import com.weirhp.service.common.UserService;
 import com.weirhp.web.Constants;
 
+/**
+ * 系统首页和登录页
+ * @author weirhp@gmail.com
+ *
+ */
 @IocBean
 @Fail("json")
 public class IndexModule {
@@ -28,13 +33,6 @@ public class IndexModule {
     @At("/")
     @Ok("jsp:jsps.login")
     public void index() {
-        // AtMap atMap = Mvcs.getAtMap();
-        // Map<String,Method> map= atMap.getMethodMapping();
-        // for(Entry<String, Method> entry:map.entrySet()){
-        // System.out.println(entry.getKey() + ":" + entry.getValue() + "||" +
-        // entry.getValue().getDeclaringClass());
-        // }
-        // return "";
     }
     
     @Allow

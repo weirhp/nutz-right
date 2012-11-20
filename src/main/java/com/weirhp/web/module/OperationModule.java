@@ -16,6 +16,11 @@ import org.nutz.mvc.annotation.Param;
 import com.weirhp.domain.common.MenuOperation;
 import com.weirhp.service.common.OperationService;
 
+/**
+ * 所有action相关的操作的处理
+ * @author weirhp@gmail.com
+ *
+ */
 @IocBean
 @At("/operation")
 public class OperationModule {

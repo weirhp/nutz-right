@@ -19,7 +19,11 @@ import com.weirhp.domain.common.Role;
 import com.weirhp.domain.common.User;
 import com.weirhp.service.common.OperationService;
 import com.weirhp.util.HReflects;
-
+/**
+ * 权限过滤器
+ * @author weirhp@gmail.com
+ *
+ */
 public class SysActionFilter implements ActionFilter {
     
     private static Map<Long, Object> roleOperations = new HashMap<Long, Object>();
@@ -36,6 +40,7 @@ public class SysActionFilter implements ActionFilter {
                 return view;
             } else {
                 try {
+                    //根据方法本来的返回数据类型进行错误view的展示
                     Ok ok = actionMethod.getAnnotation(Ok.class);
                     String okStr = ok.value();
                     if ("json".equals(okStr)) {
@@ -49,7 +54,13 @@ public class SysActionFilter implements ActionFilter {
         }
         return null;
     }
-    
+    /**
+     * 判断当前用户是否有权限访问该action
+     * @param user
+     * @param actionMethod
+     * @param operationService
+     * @return
+     */
     private boolean hasRight(User user, Method actionMethod, OperationService operationService) {
         Allow allow = actionMethod.getAnnotation(Allow.class);
         boolean hasRight = false;

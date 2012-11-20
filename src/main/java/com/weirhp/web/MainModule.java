@@ -18,6 +18,5 @@ import com.weirhp.web.module.IndexModule;
 @Localization("msg")
 @Fail("json")
 @Filters(@By(type = SysActionFilter.class, args = "/login"))
-// 全局的Shiro注解过滤器
 public class MainModule {
 }

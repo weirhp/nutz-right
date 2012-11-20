@@ -18,6 +18,11 @@ import com.weirhp.domain.common.User;
 import com.weirhp.service.common.UserService;
 import com.weirhp.web.Constants;
 
+/**
+ * 用户相关的处理
+ * @author weirhp@gmail.com
+ *
+ */
 @IocBean
 @At("/user")
 public class UserManagerModule {

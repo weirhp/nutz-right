@@ -16,6 +16,11 @@ import com.weirhp.domain.common.User;
 import com.weirhp.service.common.MenuService;
 import com.weirhp.web.Constants;
 
+/**
+ * 管理员首页的处理
+ * @author weirhp@gmail.com
+ *
+ */
 @IocBean
 @At("/manage")
 public class AdminManagerModule {

@@ -21,7 +21,7 @@ import com.weirhp.service.common.MenuService;
 /**
  * 菜单相关操作
  * 
- * @author weirhp
+ * @author weirhp@gmail.com
  * 
  */
 @IocBean

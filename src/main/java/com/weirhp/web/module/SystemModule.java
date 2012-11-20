@@ -12,6 +12,10 @@ import org.nutz.mvc.config.AtMap;
 
 import com.weirhp.service.common.RoleManagerService;
 
+/**
+ * 系统设定，初始化等操作
+ * @author weirhp
+ */
 @IocBean
 @At("/system")
 public class SystemModule {

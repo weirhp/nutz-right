@@ -17,6 +17,11 @@ import com.weirhp.domain.common.Role;
 import com.weirhp.service.common.RoleManagerService;
 import com.weirhp.service.common.UserService;
 
+/**
+ * 角色相关的处理
+ * @author weirhp@gmail.com
+ *
+ */
 @At("/role_mgr")
 @IocBean
 public class RoleManagerModule {
